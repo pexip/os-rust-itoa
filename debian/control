@@ -1,0 +1,31 @@
+Source: rust-itoa
+Section: rust
+Priority: optional
+Build-Depends: debhelper (>= 11),
+ dh-cargo (>= 18),
+ cargo:native <!nocheck>,
+ rustc:native <!nocheck>,
+ libstd-rust-dev <!nocheck>
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders:
+ Ximin Luo <infinity0@debian.org>
+Standards-Version: 4.4.1
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/itoa]
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/itoa
+
+Package: librust-itoa-dev
+Architecture: any
+Multi-Arch: same
+Depends:
+ ${misc:Depends}
+Provides:
+ librust-itoa+default-dev (= ${binary:Version}),
+ librust-itoa-1-dev (= ${binary:Version}),
+ librust-itoa-1+default-dev (= ${binary:Version}),
+ librust-itoa-1.0-dev (= ${binary:Version}),
+ librust-itoa-1.0+default-dev (= ${binary:Version}),
+ librust-itoa-1.0.1-dev (= ${binary:Version}),
+ librust-itoa-1.0.1+default-dev (= ${binary:Version})
+Description: Fast functions printing integer primitives to io::Write - Rust source code
+ This package contains the source for the Rust itoa crate, packaged by debcargo
+ for use with cargo and dh-cargo.
