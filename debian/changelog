@@ -1,3 +1,9 @@
+rust-itoa (1.0.1-2pexip1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- Huw Jones <huw@pexip.com>  Fri, 17 Mar 2023 13:26:01 +0000
+
 rust-itoa (1.0.1-2) unstable; urgency=medium
 
   * Team upload.
