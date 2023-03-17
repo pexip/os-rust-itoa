@@ -1,3 +1,9 @@
+rust-itoa (1.0.1-2pexip2) pexip; urgency=medium
+
+  * Don't override dh_auto_test
+
+ -- Huw Jones <huw@pexip.com>  Fri, 17 Mar 2023 13:36:17 +0000
+
 rust-itoa (1.0.1-2pexip1) pexip; urgency=medium
 
   * Prepare Pexip packaging
