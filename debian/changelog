@@ -1,3 +1,9 @@
+rust-itoa (1.0.1-2pexip3) pexip-bookworm; urgency=medium
+
+  * Initial bookworm build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 16 Nov 2023 10:30:25 +0000
+
 rust-itoa (1.0.1-2pexip2) pexip; urgency=medium
 
   * Don't override dh_auto_test
