@@ -1,3 +1,9 @@
+rust-itoa (1.0.1-2+pexip24u5) pexip-bookworm; urgency=medium
+
+  * New versioning scheme
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 01 Feb 2024 16:31:31 +0000
+
 rust-itoa (1.0.1-2pexip4) pexip-bookworm; urgency=medium
 
   * Bookworm build for product distribution
